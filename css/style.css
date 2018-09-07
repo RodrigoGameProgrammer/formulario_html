@@ -1,0 +1,26 @@
+.x{
+	
+	border: 1px solid #000000;
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+.y{
+
+	background: #C0C0C0;
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+.margin{
+	margin: 10px;
+}
+
+table{
+	
+}
+input, select, textarea{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+ 

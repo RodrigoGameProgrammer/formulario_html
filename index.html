@@ -51,7 +51,7 @@ a opção for por RG, indicar órgão emissor e UF):<br>
 				<input type="text" name="endereco" id="logradouro" size="35" required="yes">
 				
 				<b>Nº: </b>
-				<input type="text" name="endereco" id="numero" size="7" required="yes">
+				<input type="text" name="endereco" id="numero" size="7" required="yes" onKeyPress="return bloqueiaLetra(event)">
 				
 				<b>Bairro: </b>
 				<input type="text" name="endereco" id="bairro" size="30" required="yes" onKeyPress="return bloqueiaNumero(event)"><br>
@@ -93,13 +93,13 @@ a opção for por RG, indicar órgão emissor e UF):<br>
 				</select>
 				
 				<b>UF: </b>
-				<input type="text" name="uf" id="uf" size="5"><br required="yes" onKeyPress="return bloqueiaNumero(event)">
+				<input type="text" name="uf" id="uf" size="5" required="yes"  onKeyPress="return bloqueiaNumero(event)"><br>
 				
 				<b>CEP: </b> 
 				<input type="text" name="cep" class="cep" id="cep" size="7" required="yes"> 
 				
 				<b>País: </b>
-				<input type="text" name="pais" size="10" required="yes" onKeyPress="return bloqueiaNumero(event)"><br>
+				<input type="text" name="pais" size="10" required="yes"  onKeyPress="return bloqueiaNumero(event)"><br>
 				</div>
 		</div><br>		
 		

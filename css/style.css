@@ -28,7 +28,9 @@ html{
 .margin{
 	margin: 10px;
 }
-
+/*input{
+	background-color: #C5D7Fe
+}*/
 /*Vai arrumar o espaçamento tags mencionadas*/
 input, select, textarea{
 	margin-bottom: 10px;
